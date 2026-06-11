@@ -1,0 +1,86 @@
+/* ── Tipografía base ─────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F5F6FA;
+  color: #2d2d2d;
+}
+
+/* ── Barra de navegación ─────────────────────────── */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: -0.02em;
+  color: #333 !important;
+}
+
+/* ── Tabs ────────────────────────────────────────── */
+.nav-tabs {
+  border-bottom: 2px solid #E8E8F0;
+  gap: 4px;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  border-radius: 10px 10px 0 0;
+  color: #777;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 10px 18px;
+  transition: all 0.2s;
+}
+
+.nav-tabs .nav-link:hover {
+  background-color: #EEEEF8;
+  color: #444;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #ffffff;
+  color: #333;
+  font-weight: 600;
+  border-bottom: 2px solid #A4C2F4;
+}
+
+/* ── Contenedor de pestaña ───────────────────────── */
+.tab-content-wrapper {
+  padding: 2rem 0.5rem 3rem;
+}
+
+/* ── Hero y títulos ──────────────────────────────── */
+.hero-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+}
+
+.eyebrow-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #A4C2F4;
+}
+
+.section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #444;
+}
+
+.section-divider {
+  border-color: #E8E8F0;
+  margin: 2rem 0;
+}
+
+/* ── Sliders ─────────────────────────────────────── */
+.rc-slider-track {
+  background-color: #A4C2F4 !important;
+}
+
+.rc-slider-handle {
+  border-color: #A4C2F4 !important;
+}
